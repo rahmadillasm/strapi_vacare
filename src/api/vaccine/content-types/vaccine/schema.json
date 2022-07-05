@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vaccines",
+  "info": {
+    "singularName": "vaccine",
+    "pluralName": "vaccines",
+    "displayName": "Vaccine",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": false
+    },
+    "address": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "quota": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    },
+    "urlImage": {
+      "type": "string"
+    }
+  }
+}
